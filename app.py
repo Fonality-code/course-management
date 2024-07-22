@@ -1,9 +1,13 @@
 from flask import Flask, redirect, url_for
+from config import config
 
-from config.mongodb import init_db
+
+
 
 
 app = Flask(__name__)
+
+
 
 
 
